@@ -1,0 +1,188 @@
+/* ✅ Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ✅ Full Page Background with Image */
+body {
+    background: url('images/library-bg.jpg') no-repeat center center/cover;
+    color: #333;
+    min-height: 100vh;
+}
+
+/* 🎯 Dashboard Container */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ✅ Sidebar */
+.sidebar {
+    width: 280px;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.sidebar:hover {
+    width: 300px;
+}
+
+/* 🎯 Profile Section with Emoji */
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* ✅ Profile Emoji Styling */
+.profile-emoji {
+    font-size: 80px;       /* Large emoji size */
+    margin-bottom: 15px;
+    display: inline-block;
+    background: #f39c12;    /* Eye-catching background color */
+    color: white;
+    padding: 25px;
+    border-radius: 50%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.profile-emoji:hover {
+    transform: scale(1.1);
+    background: #e67e22;    /* Slight color change on hover */
+}
+
+.profile-section h2 {
+    font-size: 24px;
+    color: #f1f1f1;
+}
+
+.profile-section p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* 🎯 Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    padding: 12px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #16a085;
+    transform: translateX(5px);
+}
+
+/* ✅ Main Content */
+.main-content {
+    flex: 1;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.main-content h1 {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* ✅ Statistics Cards */
+.stats {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card {
+    background: #3498db;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: 0.3s;
+    flex: 1;
+}
+
+.card:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ✅ Logout Button */
+.btn-logout {
+    width: 100%;
+    padding: 12px 0;
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background: #c0392b;
+    transform: translateY(-3px);
+}
+
+/* ✅ Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats {
+        flex-direction: column;
+    }
+}
