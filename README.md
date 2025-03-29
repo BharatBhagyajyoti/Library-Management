@@ -1,3 +1,10 @@
+Note :
+- Session tracking for user side isn't implemented.
+- If you want track the session using the session attribute "userbean" which is added to the session while login
+
+
+
+
 ---------------------------------------------------------📚 Library Management System------------------------------------------------------
 
 🚀 Project Overview
