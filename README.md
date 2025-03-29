@@ -18,15 +18,15 @@ The system uses BCrypt password hashing for secure authentication and SweetAlert
 ⚙️ Features
 ------------
 ✅ Admin Functionalities
--> Login and Registration
--> Secure admin login with password hashing.
--> Admin registration with unique email validation.
+1. Login and Registration
+2. Secure admin login with password hashing.
+3. Admin registration with unique email validation.
 
 Book Management
 ---------------
--> Add, update, delete, and view books.
--> Book Request Approval
--> View and approve/reject book requests from users.
+1. Add, update, delete, and view books.
+2. Book Request Approval
+3. View and approve/reject book requests from users.
 
 **Logout**
 -----------
@@ -34,20 +34,20 @@ Ends the session securely.
 
 🔥 User Functionalities
 ------------------------
--> User Registration
--> Secure user signup with hashed passwords.
--> Login
--> Validates credentials against the database.
+1. User Registration
+2. Secure user signup with hashed passwords.
+3. Login
+4. Validates credentials against the database.
 
 Book Requests
 -------------
--> Submit book requests with author details.
--> View Book Requests
--> View list of submitted book requests.
+1. Submit book requests with author details.
+2. View Book Requests
+3. View list of submitted book requests.
 
 Search Books
 ------------
--> Dynamically search for books by name.
+1. Dynamically search for books by name.
 
 Logout
 ------
@@ -55,11 +55,11 @@ Ends the session securely.
 
 🛠️ Tech Stack
 ---------------
--> Frontend: JSP, HTML, CSS, JavaScript, SweetAlert for notifications.
--> Backend:Java Servlets, JDBC (Java Database Connectivity)
--> Database: Oracle SQL
-->Security: Password hashing using BCrypt
--> Server: Apache Tomcat
+1. Frontend: JSP, HTML, CSS, JavaScript, SweetAlert for notifications.
+2. Backend:Java Servlets, JDBC (Java Database Connectivity)
+3. Database: Oracle SQL
+4. Security: Password hashing using BCrypt
+5. Server: Apache Tomcat
 
 🗃️ Project Structure
 ---------------------
@@ -183,13 +183,13 @@ Clone the repository: git clone https://github.com/BharatBhagyajyoti/Library-Man
 
 Database Setup:
 --------------
--> Import the provided SQL schema into your Oracle SQL database.
--> Update the database connection details in DBinfo.java.
+1, Import the provided SQL schema into your Oracle SQL database.
+. Update the database connection details in DBinfo.java.
 
 Deploy the Project:
 -------------------
--> Use Apache Tomcat as the server.
--> Deploy the project and start the server.
+1. Use Apache Tomcat as the server.
+2. Deploy the project and start the server.
 
 Access the Application:
 
@@ -199,25 +199,25 @@ Open " http://localhost:8080/LibraryManagement/ " in your browser.
 -----------
 Admin Side
 ............
--> Admin Login
--> Add, Update, Delete, and View Books
--> Approve/Reject Book Requests
--> Secure Logout
+1. Admin Login
+2. Add, Update, Delete, and View Books
+3. Approve/Reject Book Requests
+4. Secure Logout
 
 User Side
 ..........
--> User Registration and Login
-->Submit Book Requests
--> View Book Requests
--> Search Books
--> Logout
+1. User Registration and Login
+2. Submit Book Requests
+3. View Book Requests
+4. Search Books
+5. Logout
 
 🔥 Future Enhancements
 -----------------------
--> Add Pagination for book requests and book lists.
--> Include Forgot Password functionality with OTP verification.
--> Export book data as PDF/Excel.
--> Improve UI/UX with better animations and responsive design.
+1. Add Pagination for book requests and book lists.
+2. Include Forgot Password functionality with OTP verification.
+3. Export book data as PDF/Excel.
+4. Improve UI/UX with better animations and responsive design.
 
 🚀 Contributor
 ---------------
