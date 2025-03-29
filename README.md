@@ -3,6 +3,8 @@ Note :
 - If you want track the session using the session attribute "userbean" which is added to the session while login
 
 
+Welcome file is : AdminLogin
+To use the User site : http://localhost:8080/LibraryManagement/UserLogin.jsp
 
 
 ---------------------------------------------------------📚 Library Management System------------------------------------------------------
